@@ -296,9 +296,5 @@ $hari	 = date("w", strtotime($date));
 $result = $Hari[$hari].", ".$tgl." ".$Bulan[(int)$bulan-1]." ".$tahun." ".$waktu." WIB";
 return $result;
 }
-/* by RioBermano.Com */
-
- sumber: https://www.posciety.com/cara-merubah-format-tanggal-php-timezone-indonesia/
-
 
 ?>
